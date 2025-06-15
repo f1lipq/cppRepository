@@ -17,7 +17,7 @@ float bmi(float waga, float wzrost){
 int main(){
     float waga = 0.00;
     float wzrost = 0.00;
-    float bmi = bmi(waga, wzrost);
+    float bmiVal = bmi(waga, wzrost);
 
-    cout << "BMI: " << bmi;
+    cout << "BMI: " << bmiVal;
 }
