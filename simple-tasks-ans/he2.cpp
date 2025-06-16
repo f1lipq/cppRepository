@@ -28,7 +28,7 @@ class BankAccounts{
         }
         void showHistory(){
             for (int i = 0; i < history.size(); i++){
-                std::cout << history[i]std::setprecision(2) << std::endl;
+                std::cout << history[i] << std::endl;
             }
         }
 };

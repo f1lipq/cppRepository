@@ -5,10 +5,12 @@ int main() {
     std::vector<int> numbers;
     int n;
     int sum = 0;
+    std::cout << "Podaj pierwszą liczbę: ";
     std::cin >> n;
     numbers.push_back(n);
 
     while (n != 0) {
+        std::cout << "Podaj następną liczbę (podaj 0 aby przerwać): ";
         std::cin >> n;
         numbers.push_back(n);
     }
