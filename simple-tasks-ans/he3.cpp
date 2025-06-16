@@ -15,8 +15,10 @@ class SalaKina {
         }
     }
     void pokazMiejsca() {
+        std::cout << "EKRAN\n";
         for (int i = 0; i < 10; i++){
             std::vector<char> rzad;
+            std::cout << i << ".  ";
             for (int j = 0; j < 15; j++){
                 std::cout << rezerwacje[i][j] << " ";
             }
@@ -37,5 +39,9 @@ int main(){
     SalaKina s1;
     s1.pokazMiejsca();
     s1.zarezerwujMiejsce(4, 80);
+    s1.pokazMiejsca();
+    s1.zarezerwujMiejsce(4, 8);
+    s1.zarezerwujMiejsce(4, 9);
+    s1.zarezerwujMiejsce(7, 2);
     s1.pokazMiejsca();
 }

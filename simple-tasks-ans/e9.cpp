@@ -17,8 +17,8 @@ int main(){
     }
 
     std::reverse(numbers.begin(), numbers.end());
-
+    std::cout << "Odwrócona kolejność: ";
     for (int i = 0; i < n; i++){
-        std::cout << numbers[i];
+        std::cout << numbers[i] << ", ";
     }
 }
